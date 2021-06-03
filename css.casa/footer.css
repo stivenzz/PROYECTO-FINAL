@@ -1,0 +1,101 @@
+footer{
+
+    width: 100%;
+    background-color: rgb(177, 94, 0);
+}
+
+.partefooter{
+
+  background-image:url(../imagenes/black-low-poly-geometric-background-vector.webp) ;
+  background-attachment: fixed;
+  padding: 30px;
+  width: 100%;
+
+}
+
+.contenidom{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulomapa{
+
+    color: aliceblue;
+    text-align: center;
+    font-family: cursive;
+    padding: 35px 0 15px 0;
+}
+
+iframe{
+
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+form{
+    margin-left: 120px;
+    width: 450px;
+    background-color: rgb(88, 35, 0);
+    box-sizing: border-box;
+    padding: 20px 20px;
+    border-radius: 7px;
+    font-family: cursive;
+    color: aliceblue;
+    text-align: center;
+
+}
+
+input,textarea{
+
+width: 100%;
+margin-bottom: 20px;
+padding: 7px;
+box-sizing: border-box;
+font-size: 17px;
+border-radius: 5px;
+font-size: cursive ;
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+}
+
+#boton{
+    background: black;
+    color: aliceblue;
+    padding: 20px;
+}
+
+#boton:hover{
+
+cursor: pointer;
+background: blanchedalmond;
+color: rgb(172, 74, 9);
+}
+
+.iconosredes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.iconosredes img , a{
+    text-decoration: none;
+    margin:50px 12px;
+    width: 70px;
+    padding-top: 30px;
+}
+
+.textofoter{
+    padding-top: 8px;
+    width: 100%;
+    font-family: cursive;
+    text-align: center;
+    color: aliceblue;
+    font-size: 15px;
+    background-color: black;
+}

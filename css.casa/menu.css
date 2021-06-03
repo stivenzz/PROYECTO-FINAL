@@ -1,0 +1,122 @@
+.iconobokat {
+
+    background:#4d362a;
+    
+}
+
+.tituloo{
+    padding-left: 100px;
+}
+
+.img_logo{
+width: 250px;
+height: 250px;
+display: block;
+padding-top: 30px;
+}
+
+
+.imagen{
+    width: 250px;
+    height: 250px;
+    padding-top: 30px;
+}
+
+
+.centrar{
+text-align: center;
+width: 100%;
+background-color:#4d362a;
+font-size: 35px;
+font-family: 'luckiest Guy';
+}
+
+
+#boton_menu {
+     display: none;
+}
+
+.icono_menu{
+    padding-top: 0px;
+    text-align: center;
+}
+
+header label{
+    display: none;
+    width: 100px;
+    padding: 10px;
+    border-bottom: 1px dotted rgb(255, 255, 255) ;
+}
+
+
+.menu ul{
+    padding: 0;
+    margin: 0;
+   list-style: none;
+   display: inline-flex;
+}
+
+
+
+.menu li{
+padding: 0px 22px 10px 20px;
+}
+
+.menu li a{
+text-decoration: none;
+color: rgb(255, 255, 255);
+
+}
+
+.menu li a:hover{
+text-decoration: overline;
+color: rgb(182, 95, 37);
+
+}
+
+@media ( max-width: 920px) {
+
+    header label{
+
+    display: block;
+    height: 75px;
+
+    }
+
+     
+    .menu{
+
+     position: absolute;
+     background-color: #4d362a;
+     width: 100%;
+     margin-left: -100%;
+     transition: all 0.5s;
+     z-index: 100;
+    }
+
+
+    #boton_menu:checked ~ .menu{
+
+     margin:0;
+
+    }
+
+    
+    .menu ul{
+
+        display: block;
+    }
+
+    
+    .menu ul :hover{
+
+      background-color: #000000;
+
+    }
+
+
+
+}
+     
+
+

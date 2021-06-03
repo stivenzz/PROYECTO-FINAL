@@ -1,0 +1,64 @@
+* {
+box-sizing: border-box;
+
+}
+body{
+margin: 0;
+background-color: black;
+
+}
+
+.bloquetitulo{
+
+  font-size: 40px;
+  letter-spacing: 1px;
+  padding: 45px 0px;
+  text-align: center;
+  font-family: cursive;
+  color: rgb(182, 92, 40);
+  z-index: 90;
+
+}
+
+
+.parrafotitulo{
+
+    color: aliceblue;
+    font-family: cursive;
+    z-index: 90;
+}
+
+.bloquetitulo2{
+
+    width: 100%;
+    display:-flex;
+    font-size: 27px;
+    letter-spacing: 5px;
+    margin: 0;
+    padding: 45px 0px;
+    text-align: center;
+    color: aliceblue;
+    font-family: cursive;
+    background-image: url(../imagenes/black-low-poly-geometric-background-vector.webp);
+    background-size: 150%;
+    background-repeat: no-repeat;
+
+
+}
+
+.foto{
+
+    text-align: center;
+    font-size: 35px;
+    color: aliceblue;
+    padding-bottom: 10%;
+}
+
+.gabriel{
+    width: 800px;
+    display: block;
+    margin: 100px auto ;
+    border-radius: 70px;
+    background-color: rgb(87, 35, 1);
+
+}
