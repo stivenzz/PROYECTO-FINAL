@@ -3,6 +3,15 @@
     "version": "1.0.0",
     "description": "HTML \r CSS\r JAVASCRIPTS",
     "main": "index.js",
+    "dependencies": {
+        "body": "^5.1.0",
+        "body-parser": "^1.19.0",
+        "express": "^4.17.1",
+        "mongoose": "^5.12.13",
+        "nodemon": "^2.0.7",
+        "parser": "^0.1.4"
+    },
+    "devDependencies": {},
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "nodemon index.js"
@@ -12,14 +21,10 @@
         "url": "git+https://github.com/stivenzz/PROYECTO-FINAL.git"
     },
     "keywords": [],
-    "author": "M",
+    "author": "",
     "license": "ISC",
     "bugs": {
         "url": "https://github.com/stivenzz/PROYECTO-FINAL/issues"
     },
-    "homepage": "https://github.com/stivenzz/PROYECTO-FINAL#readme",
-    "dependencies": {
-        "mongoose": "^5.12.13",
-        "nodemon": "^2.0.7"
-    }
+    "homepage": "https://github.com/stivenzz/PROYECTO-FINAL#readme"
 }
