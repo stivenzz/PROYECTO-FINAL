@@ -1,5 +1,5 @@
 {
-    "name": "ProyectoFinalUnidad1",
+    "name": "api",
     "version": "1.0.0",
     "description": "HTML \r CSS\r JAVASCRIPTS",
     "main": "index.js",
@@ -12,13 +12,14 @@
         "url": "git+https://github.com/stivenzz/PROYECTO-FINAL.git"
     },
     "keywords": [],
-    "author": "Manuel stiven osorio",
+    "author": "M",
     "license": "ISC",
     "bugs": {
         "url": "https://github.com/stivenzz/PROYECTO-FINAL/issues"
     },
     "homepage": "https://github.com/stivenzz/PROYECTO-FINAL#readme",
     "dependencies": {
+        "mongoose": "^5.12.13",
         "nodemon": "^2.0.7"
     }
 }
