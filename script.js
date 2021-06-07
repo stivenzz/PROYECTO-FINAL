@@ -1,3 +1,3 @@
-function mensaje(){
-    alert("bienvenido")
+function validateform() {
+    alert("Estas seguro que deseas enviar tu formulario?")
 }
